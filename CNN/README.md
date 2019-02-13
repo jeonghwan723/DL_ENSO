@@ -2,9 +2,12 @@
 ## Processes of the Nino3.4 prediction
 
    - Training with CMIP5 (csh/nino34.cmip.csh)
+   
        (1) training (import from sample/nino34.train_cmip.sample)
+       
        (2) validation (import from sample/nino34.valid.sample)
-       (3) ensemble mean (import from sample/nino34.ensmean.sample)
+      
+      (3) ensemble mean (import from sample/nino34.ensmean.sample)
 
    - Transfer learning with SODA (csh/nino34.transfer.csh)
        (1) training (import from sample/nino34.train_transfer.sample)
