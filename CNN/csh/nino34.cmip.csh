@@ -2,7 +2,7 @@
 # c-shell script for Nino34 prediction based on the CNN.
 
 # set lead month
-foreach LEAD ( 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23)
+foreach LEAD ( 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23)
 
 # set target season (i.g. 1: JFM, 2: FMA, ..., 12: DJF)
 @ TMON = 1
