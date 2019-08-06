@@ -17,10 +17,10 @@ foreach hidf ( 30 50 )      # Number of hidden neurons
 setenv GGG 0                       # GPU number (0~3)
 setenv ENN 10                      # Ensemble number
 
-setenv SMF 'soda.sst_t300.map.1871_1970.36mon.nc'         # Sample of training data
-setenv LBF 'soda.nino.1873_1972.LAG.nc'                 # Label of training data
-setenv EVD 'godas.sst_t300.1980_2015.36mon.nc'         # Sample of evaluation data
-setenv EBD 'godas.nino.1982_2017_LAG.nc'       # Label of training data
+setenv SMF 'dataset/SODA.input.36mon.1871_1970.nc'         # Sample of training data
+setenv LBF 'dataset/SODA.label.12mon.1873_1972.nc'                 # Label of training data
+setenv EVD 'dataset/GODAS.input.36mon.1980_2015.nc'         # Sample of evaluation data
+setenv EBD 'dataset/GODAS.label.12mon.1982_2017.nc'       # Label of training data
 
 setenv TTT 100                     # Total data size of training set
 setenv SSS 100                     # Training data size of training set
