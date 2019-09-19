@@ -17,10 +17,10 @@ foreach hidf ( 30 50 )      # Number of hidden neurons
 setenv GGG 0                       # GPU number (0~3)
 setenv ENN 10                      # Ensemble number
 
-setenv SMF 'dataset/SODA.input.36mon.1871_1970.nc'         # Sample of training data
-setenv LBF 'dataset/SODA.label.12mon.1873_1972.nc'                 # Label of training data
-setenv EVD 'dataset/GODAS.input.36mon.1980_2015.nc'         # Sample of evaluation data
-setenv EBD 'dataset/GODAS.label.12mon.1982_2017.nc'       # Label of training data
+setenv SMF 'dataset/SODA.input.36mon.1871_1970.nc'        # Input of training set
+setenv LBF 'dataset/SODA.label.12mon.1873_1972.nc'        # Label of training set
+setenv EVD 'dataset/GODAS.input.36mon.1980_2015.nc'       # Input of validation set
+setenv EBD 'dataset/GODAS.label.12mon.1982_2017.nc'       # Label of validation set
 
 setenv TTT 100                     # Total data size of training set
 setenv SSS 100                     # Training data size of training set
@@ -44,9 +44,7 @@ setenv opname 'C'$conf'H'$hidf
 @ ens = 1
 while ( $ens <= $ENN )
 
-mkdir -p $HHH/output/$CCC
 mkdir -p $HHH/output/$CCC/src
-mkdir -p $HHH/output/$CCC/$opname
 mkdir -p $HHH/output/$CCC/$opname/EN$ens
 mkdir -p $HHH/output/$CCC/$opname/ensmean
 
