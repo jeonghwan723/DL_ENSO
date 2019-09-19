@@ -25,7 +25,6 @@ setenv opname 'C'$conf'H'$hidf
 echo $opname
 
 cd $HHH/output/$CCC/src
-mkdir -p $HHH/output/$CCC/heatmap
 mkdir -p $HHH/output/$CCC/heatmap/$opname
 cp -f $HHH/sample/nino34.heatmap.sample .
 
