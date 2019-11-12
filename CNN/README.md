@@ -41,9 +41,9 @@
    -  https://drive.google.com/open?id=1cbeA3pGF9Ls-U805uFIwa21DhzMRD2eK
    
    The data set consists of the following:
-     -  Training set: [CMIP5.input.36mon.1861_2001.nc], [CMIP5.label.12mon.1863_2003.nc]
-     -  Training set for transfer learning: [SODA.input.36mon.1871_1970.nc], [SODA.label.12mon.1873_1972.nc]
-     -  validation set: [GODAS.input.36mon.1980_2015.nc], [GODAS.label.12mon.1982_2017.nc]
+   -  Training set: [CMIP5.input.36mon.1861_2001.nc], [CMIP5.label.12mon.1863_2003.nc]
+   -  Training set for transfer learning: [SODA.input.36mon.1871_1970.nc], [SODA.label.12mon.1873_1972.nc]
+   -  validation set: [GODAS.input.36mon.1980_2015.nc], [GODAS.label.12mon.1982_2017.nc]
 
 
 ## Requirement (python packages)
