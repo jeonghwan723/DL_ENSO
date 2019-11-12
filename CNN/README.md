@@ -36,9 +36,9 @@
           (import from nino_type.heatmap.sample)
 
 
-## You can download Data set through the link below
+## Data set
 
-   -  https://drive.google.com/open?id=1cbeA3pGF9Ls-U805uFIwa21DhzMRD2eK
+   -  you can download data set here: https://drive.google.com/open?id=1cbeA3pGF9Ls-U805uFIwa21DhzMRD2eK
    
    -  The data set consists of the following:
    
@@ -54,4 +54,4 @@
    -  Tensowflow (https://www.tensorflow.org/install/)
    -  netCDF4
    
-## You can find tutorials basic codes at here: https://www.tensorflow.org/tutorials/
+## Basic tutorial: https://www.tensorflow.org/tutorials/
