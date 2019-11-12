@@ -55,3 +55,6 @@
    -  netCDF4
    
 ## Basic tutorial: https://www.tensorflow.org/tutorials/
+
+## Reference
+Ham, Y. G., Kim, J. H. & Luo, J.-J. Deep learning for multi-year ENSO forecasts. Nature 573, https://doi.org/10.1029/2010JC006695 (2019).
