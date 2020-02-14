@@ -53,7 +53,8 @@ Ham, Y. G., Kim, J. H. & Luo, J.-J. Deep learning for multi-year ENSO forecasts.
 
 ## Requirement (python packages)
 
-   -  Tensowflow (https://www.tensorflow.org/install/)
+   -  Tensowflow (https://www.tensorflow.org/install/) 
+      ( < version 2.0 )
    -  netCDF4
    
 ## Basic tutorial: https://www.tensorflow.org/tutorials/
