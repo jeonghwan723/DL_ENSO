@@ -38,7 +38,7 @@
 
 ## Data set
 
-   -  you can download data set here: https://drive.google.com/open?id=1cbeA3pGF9Ls-U805uFIwa21DhzMRD2eK
+   -  you can download data set here: https://drive.google.com/file/d/1O-JkOh0Az_NrojietqPCZb809S-jCDps/view?usp=sharing
    
    -  The data set consists of the following:
    
