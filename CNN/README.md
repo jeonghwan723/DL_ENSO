@@ -46,18 +46,19 @@
        - Dataset for Nino3.4 forecast
    
           (1) Training set (CMIP5/): 
+          
               Input: [CMIP5.input.36mn.1861_2001.nc]
-              
               Label for 2-23month lead: [CMIP5.label.nino34.12mn_3mv.1863_2003.nc]
-              
               Label for 1month lead: [CMIP5.label.nino34.12mn_2mv.1863_2003.nc]
        
-          (2) Training set for transfer learning (SODA/)
+          (2) Training set for transfer learning (SODA/):
+          
               Input: [SODA.input.36mn.1871_1970.nc]
               Label for 2-23month lead: [SODA.label.nino34.12mn_3mv.1873_1972.nc]
               Label for 1month lead: [SODA.label.nino34.12mn_2mv.1873_1972.nc]
        
-          (3) validation set (GODAS/)
+          (3) validation set (GODAS/):
+          
               Input: [GODAS.input.36mn.1980_2015.nc]
               Label for 2-23month lead: [GODAS.label.12mn_3mv.1982_2017.nc]
               Label for 1month lead: [GODAS.label.12mn_2mv.1982_2017.nc]
@@ -65,11 +66,13 @@
           
         - Dataset for El Nino type forecast
         
-          (1) Training set (CMIP5/)
+          (1) Training set (CMIP5/):
+          
               Input: [CMIP5.input.type.NDJ.1861_2001.nc]
               Label: [CMIP5.label.type.DJF.1863_2003.nc]
        
-          (2) validation set (GODAS/)
+          (2) validation set (GODAS/):
+          
               Input: [GODAS.input.36mn.1980_2015.nc]
               Label: [GODAS.label.type.DJF.1982_2017.nc]        
           
