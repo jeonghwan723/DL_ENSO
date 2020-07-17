@@ -47,7 +47,9 @@
    
           (1) Training set (CMIP5/): 
               Input: [CMIP5.input.36mn.1861_2001.nc]
+              
               Label for 2-23month lead: [CMIP5.label.nino34.12mn_3mv.1863_2003.nc]
+              
               Label for 1month lead: [CMIP5.label.nino34.12mn_2mv.1863_2003.nc]
        
           (2) Training set for transfer learning (SODA/)
