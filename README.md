@@ -1,6 +1,7 @@
-### CNN
+## Directory
 
-- source code for ENSO forecast
+- CNN: source code for ENSO forecast
+- figure: source code for drawing main figures
 
 ## Processes of the Nino3.4 prediction
 
@@ -90,7 +91,3 @@ Ham, Y. G., Kim, J. H. & Luo, J.-J. Deep learning for multi-year ENSO forecasts.
    -  netCDF4
    
 ## Basic tutorial: https://www.tensorflow.org/tutorials/
-
-### figure
-
-- source code for drawing main figures
