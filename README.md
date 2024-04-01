@@ -42,7 +42,7 @@
 
 ## Data set (netCDF4)
 
-   -  you can download data set here (1.13GB): https://168.131.122.201/OCL/Data/DL_ENSO/H19_dataset.zip.
+   -  you can download data set here (1.13GB): https://drive.google.com/file/d/10EnwnYPJHLLyNFhKF29IXmPMb4mpnBRb/view?usp=sharing
    
    -  The data set consists of the following:
    
